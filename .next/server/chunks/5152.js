@@ -7,6 +7,7 @@ exports.modules = {
 
 "use strict";
 
+"client";
 Object.defineProperty(exports, "__esModule", ({
     value: true
 }));
@@ -18,7 +19,7 @@ var _react = _interop_require_default(__webpack_require__(6689));
 var _loadable = _interop_require_default(__webpack_require__(5832));
 function dynamic(dynamicOptions, options) {
     let loadableFn = _loadable.default;
-    let loadableOptions = {
+    let loadableOptions = (options == null ? void 0 : options.suspense) ? {} : {
         // A loading component is not required, so we default it
         loading: ({ error , isLoading , pastDelay  })=>{
             if (!pastDelay) return null;
@@ -43,6 +44,11 @@ function dynamic(dynamicOptions, options) {
     loadableOptions = _extends({}, loadableOptions, options);
     // Error if Fizz rendering is not enabled and `suspense` option is set to true
     if (false) {}
+    if (loadableOptions.suspense) {
+        if (false) {}
+        delete loadableOptions.ssr;
+        delete loadableOptions.loading;
+    }
     // coming from build/babel/plugins/react-loadable-plugin.js
     if (loadableOptions.loadableGenerated) {
         loadableOptions = _extends({}, loadableOptions, loadableOptions.loadableGenerated);
@@ -59,6 +65,7 @@ function dynamic(dynamicOptions, options) {
     }
     return loadableFn(loadableOptions);
 }
+"client";
 const isServerSide = "undefined" === "undefined";
 function noSSR(LoadableInitializer, loadableOptions) {
     // Removing webpack and modules means react-loadable won't try preloading

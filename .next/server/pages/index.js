@@ -145,6 +145,13 @@ module.exports = require("next/dist/shared/lib/router/utils/get-next-pathname-in
 
 /***/ }),
 
+/***/ 1897:
+/***/ ((module) => {
+
+module.exports = require("next/dist/shared/lib/router/utils/is-bot.js");
+
+/***/ }),
+
 /***/ 1428:
 /***/ ((module) => {
 
@@ -348,7 +355,7 @@ module.exports = require("http");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [2952,1270,1664,1890,1790,5176,1659,4756,5129,7607,8224,964], () => (__webpack_exec__(964)));
+var __webpack_exports__ = __webpack_require__.X(0, [2952,1270,1664,1890,1790,5176,1659,4756,5129,3899,8224,964], () => (__webpack_exec__(964)));
 module.exports = __webpack_exports__;
 
 })();
