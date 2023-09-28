@@ -86,7 +86,7 @@ class LinkCustom extends react__WEBPACK_IMPORTED_MODULE_1__.Component {
             });
         }
     }
-}
+};
 
 
 /***/ }),
@@ -182,7 +182,7 @@ class AutoComplete extends external_react_.Component {
             })
         });
     }
-}
+};
 
 // EXTERNAL MODULE: ./_share/service/storage.js + 3 modules
 var service_storage = __webpack_require__(6008);
@@ -1904,7 +1904,7 @@ __webpack_require__.d(__webpack_exports__, {
 // EXTERNAL MODULE: external "react/jsx-runtime"
 var jsx_runtime_ = __webpack_require__(997);
 ;// CONCATENATED MODULE: ./public/static/images/Favicon.png
-/* harmony default export */ const Favicon = ({"src":"/_next/static/media/Favicon.dd8a1275.png","height":16,"width":16,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAAHlBMVEXn5+f09PTg4ODT09PNzc3Z2dn+/v7BwcGtra2jo6O0rRZtAAAACXBIWXMAAAsTAAALEwEAmpwYAAAANUlEQVQImR3Gxw3AQBADsZG06fpv2ID5Iom7mMFuUz0UUgjIu//06lZteKqVzdy9xiGDtNQHHYkA2oikL+AAAAAASUVORK5CYII=","blurWidth":8,"blurHeight":8});
+/* harmony default export */ const Favicon = ({"src":"/_next/static/media/Favicon.dd8a1275.png","height":16,"width":16,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAAHlBMVEXn5+f09PTg4ODT09PNzc3Z2dn+/v7BwcGtra2jo6O0rRZtAAAACXBIWXMAAAsTAAALEwEAmpwYAAAANUlEQVQImR3Gxw3AQBADsZG06fpv2ID5Iom7mMFuUz0UUgjIu//06lZteKqVzdy9xiGDtNQHHYkA2oikL+AAAAAASUVORK5CYII="});
 // EXTERNAL MODULE: external "react"
 var external_react_ = __webpack_require__(6689);
 var external_react_default = /*#__PURE__*/__webpack_require__.n(external_react_);
@@ -2463,7 +2463,7 @@ class Footer extends external_react_.Component {
             ]
         });
     }
-}
+};
 
 // EXTERNAL MODULE: ./Envirioment/Envirioment.js
 var Envirioment = __webpack_require__(1790);
@@ -2613,7 +2613,7 @@ var navMenu = __webpack_require__(6635);
 // EXTERNAL MODULE: ./node_modules/next/script.js
 var script = __webpack_require__(4298);
 ;// CONCATENATED MODULE: ./public/static/images/alphaville.jpg
-/* harmony default export */ const alphaville = ({"src":"/_next/static/media/alphaville.7b4151fe.jpg","height":489,"width":1200,"blurDataURL":"data:image/jpeg;base64,/9j/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAADAAgDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAP/xAAdEAACAgEFAAAAAAAAAAAAAAAAAwIEEgETITFh/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAL/xAAWEQEBAQAAAAAAAAAAAAAAAAAAARH/2gAMAwEAAhEDEQA/ALza97GpbZsSXjpLHfn3z6ACzI//2Q==","blurWidth":8,"blurHeight":3});
+/* harmony default export */ const alphaville = ({"src":"/_next/static/media/alphaville.7b4151fe.jpg","height":489,"width":1200,"blurDataURL":"data:image/jpeg;base64,/9j/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAADAAgDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAP/xAAdEAACAgEFAAAAAAAAAAAAAAAAAwIEEgETITFh/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAL/xAAWEQEBAQAAAAAAAAAAAAAAAAAAARH/2gAMAwEAAhEDEQA/ALza97GpbZsSXjpLHfn3z6ACzI//2Q=="});
 ;// CONCATENATED MODULE: ./_share/layouts/layout-main.jsx
 
 
@@ -2637,7 +2637,7 @@ const layout = ({ children , outContainer , outBottomContainer , metaProps , hom
         gtag("config", "UA-27437785-3", {
             cookie_expires: 0
         });
-        const mainUrl = "https://alphaville.com.br";
+        const mainUrl = "https://www.alphaville.com.br";
     // if (window.location.origin != mainUrl) {
     //   window.location.href = mainUrl + window.location.pathname;
     // }

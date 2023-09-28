@@ -20,14 +20,14 @@ __webpack_require__.d(__webpack_exports__, {
 var jsx_runtime_ = __webpack_require__(997);
 // EXTERNAL MODULE: external "react"
 var external_react_ = __webpack_require__(6689);
-// EXTERNAL MODULE: ./_share/components/alphaMenu/alphaMenu.jsx + 4 modules
-var alphaMenu = __webpack_require__(3899);
+// EXTERNAL MODULE: ./_share/components/alphaMenu/alphaMenu.jsx + 3 modules
+var alphaMenu = __webpack_require__(7607);
 // EXTERNAL MODULE: ./_share/components/banner/banner.component.jsx
 var banner_component = __webpack_require__(5129);
 // EXTERNAL MODULE: ./_share/service/enterprises.js + 1 modules
 var enterprises = __webpack_require__(2750);
-// EXTERNAL MODULE: ./_share/components/formSaibaMais/index.jsx
-var formSaibaMais = __webpack_require__(3331);
+// EXTERNAL MODULE: ./_share/components/formSaibaMais/index.jsx + 1 modules
+var formSaibaMais = __webpack_require__(3810);
 // EXTERNAL MODULE: ./_share/layouts/layout-main.jsx + 4 modules
 var layout_main = __webpack_require__(4756);
 ;// CONCATENATED MODULE: external "fs/promises"
@@ -220,7 +220,7 @@ TeaserPage.getInitialProps = async (ctx)=>{
         if (empreendimento.statusObra.id != "4") {
             throw new Exception();
         }
-    } catch (error1) {
+    } catch (error) {
         try {
             let objRedirect = null;
             var i = 0;
@@ -243,7 +243,7 @@ TeaserPage.getInitialProps = async (ctx)=>{
             return {
                 props: {}
             };
-        } catch (error) {
+        } catch (error1) {
             res.writeHead(301, {
                 Location: "/404"
             });
@@ -406,13 +406,6 @@ module.exports = require("next/dist/shared/lib/router/utils/get-asset-path-from-
 /***/ ((module) => {
 
 module.exports = require("next/dist/shared/lib/router/utils/get-next-pathname-info.js");
-
-/***/ }),
-
-/***/ 1897:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/router/utils/is-bot.js");
 
 /***/ }),
 
@@ -605,7 +598,7 @@ module.exports = require("fs");
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [2952,1270,1664,1890,5152,1790,5176,1659,4756,5129,3899,2750,3936], () => (__webpack_exec__(8273)));
+var __webpack_exports__ = __webpack_require__.X(0, [2952,1270,1664,1890,5152,1790,5176,1659,4756,5129,7607,2750,4643], () => (__webpack_exec__(8273)));
 module.exports = __webpack_exports__;
 
 })();
