@@ -941,10 +941,10 @@ class ModalWhatsapp extends external_react_.Component {
     //  sendRd.sendRdStation();
     //}
     render() {
-        //if (this.props.show) {
-        //  const sendRd = new SendRdStation();
-        //  sendRd.fillRdStation(window.location.pathname, {}, 'home_whats.form');
-        //}
+        if (this.props.show) {
+            const sendRd = new sendRdstation/* default */.Z();
+            sendRd.fillRdStation(window.location.pathname, {}, "home_whats.form");
+        }
         return /*#__PURE__*/ (0,jsx_runtime_.jsxs)(external_react_bootstrap_.Modal, {
             ...this.props,
             className: "modal-form area-modal",

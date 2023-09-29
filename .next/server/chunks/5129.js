@@ -15,6 +15,7 @@ module.exports = {
 	"logoEmpreendimentos": "banner_logoEmpreendimentos__2HNN3",
 	"logoAntiga": "banner_logoAntiga__mirkA",
 	"logoNova": "banner_logoNova__ASxmF",
+	"AlphaVille": "banner_AlphaVille__e50IT",
 	"logoAlphaCasas0": "banner_logoAlphaCasas0__e8Lb4",
 	"bannerBaseContent": "banner_bannerBaseContent___FCry",
 	"bannerTitleContainer": "banner_bannerTitleContainer__t0eX2",
@@ -100,6 +101,10 @@ class Banner extends react__WEBPACK_IMPORTED_MODULE_2__.Component {
         list.length > 0 ? this.setCurrentSlide(0) : false;
     }
     handleSlugAlpha0Logo(logoType, homeContent) {
+        switch(homeContent.typeLote.id){
+            case "1":
+                logoType = "AlphaVille";
+        }
         return homeContent.slug === "casas-alphaville-d-pedro-0" ? "logoAlphaCasas0" : logoType;
     }
     handleContentTeaser(key) {
