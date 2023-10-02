@@ -103,7 +103,17 @@ class Banner extends react__WEBPACK_IMPORTED_MODULE_2__.Component {
     handleSlugAlpha0Logo(logoType, homeContent) {
         switch(homeContent.typeLote.id){
             case "1":
-                logoType = "AlphaVille";
+                logoType = "logoEmpreendimentos";
+                break;
+            case "2":
+                logoType = "logoTerras";
+                break;
+            case "3":
+                logoType = "logoJardim";
+                break;
+            case "4":
+                logoType = "logoAntiga";
+                break;
         }
         return homeContent.slug === "casas-alphaville-d-pedro-0" ? "logoAlphaCasas0" : logoType;
     }

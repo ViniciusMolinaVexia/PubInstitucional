@@ -1570,7 +1570,7 @@ class DesktopAlphaMenu extends external_react_.Component {
                         })
                     }),
                     this.props.homeContent?.whatsAppAtivo == 1 && /*#__PURE__*/ jsx_runtime_.jsx(modalForm_component, {
-                        id: "whatsapp",
+                        id: "whatsapp1",
                         empreendimentosjson: this.props.empreendimentosjson,
                         children: /*#__PURE__*/ jsx_runtime_.jsx(external_react_bootstrap_.Col, {
                             as: "li",
@@ -1847,7 +1847,7 @@ class MobileAlphaMenu extends external_react_.Component {
                             })
                         }),
                         this.props.homeContent?.whatsAppAtivo == 1 && /*#__PURE__*/ jsx_runtime_.jsx(modalForm_component, {
-                            id: "whatsapp",
+                            id: "whatsapp1",
                             empreendimentosjson: this.props.empreendimentosjson,
                             children: /*#__PURE__*/ jsx_runtime_.jsx("li", {
                                 style: {
@@ -1904,7 +1904,7 @@ class MobileAlphaMenu extends external_react_.Component {
                             })
                         }),
                         /*#__PURE__*/ jsx_runtime_.jsx(modalForm_component, {
-                            id: "whatsapp",
+                            id: "whatsapp1",
                             empreendimentosjson: this.props.empreendimentosjson,
                             children: /*#__PURE__*/ jsx_runtime_.jsx("li", {
                                 className: "alpha-menu-mobile__item alpha-menu-mobile__item--wpp " + bgTeaserWhatsapp,
