@@ -2247,6 +2247,7 @@ class ConstrutorVendasService {
         let traffic_campaign = Utm_campaign;
         let traffic_value = Utm_term;
         let traffic_content = Utm_content;
+        idEmpreendimento = dddAdicional;
         const data = {
             "name": name,
             "email": email,
@@ -2254,7 +2255,7 @@ class ConstrutorVendasService {
             "celular": phone,
             "ddd_adicional": dddAdicional,
             "celular_adicional": celularAdicional,
-            "id_empreendimento": idCv,
+            "id_empreendimento": idEmpreendimento,
             "origem": "CH",
             "id_emp": idEmpreendimento,
             "id_cv": idCv,
