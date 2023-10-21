@@ -2247,7 +2247,8 @@ class ConstrutorVendasService {
         let traffic_campaign = Utm_campaign;
         let traffic_value = Utm_term;
         let traffic_content = Utm_content;
-        idEmpreendimento = dddAdicional;
+        //idEmpreendimento = dddAdicional
+        idEmpreendimento = idCv;
         const data = {
             "name": name,
             "email": email,
