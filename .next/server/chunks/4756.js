@@ -1458,7 +1458,7 @@ class navMenuDesktop extends external_react_.Component {
                                                 /*#__PURE__*/ jsx_runtime_.jsx("li", {
                                                     children: /*#__PURE__*/ jsx_runtime_.jsx(LinkCustom_component/* default */.Z, {
                                                         text: "Ouvidoria",
-                                                        link: "https://www.portalclientealpha.com.br/Account/LogIn?ReturnUrl=%2FHome%2FUnauthorized",
+                                                        link: "https://www.alphaville.com.br/fale-conosco#ouvidoria",
                                                         target: "_blank",
                                                         externalLink: true
                                                     })

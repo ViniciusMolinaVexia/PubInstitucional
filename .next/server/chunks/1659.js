@@ -216,7 +216,8 @@ class Utils {
             "iguatemi_paineiras",
             "taquaral",
             "leroy_merlin",
-            "stand_de_vendas", 
+            "stand_de_vendas",
+            "ceara"
         ];
         return arrayUtmContent.some((item)=>item == param);
     };
